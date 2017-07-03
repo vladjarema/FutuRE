@@ -20,9 +20,32 @@
 <link rel="stylesheet" href="css/owl.theme.default.css">
 <script src="js/jquery.min.js"></script>
 <script src="js/owl.carousel.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQQP6FF');</script>
+<!-- End Google Tag Manager -->
+<!--Google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101357142-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--Google Analytics End-->
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQQP6FF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>--> 
 <script>
@@ -101,7 +124,7 @@
              <!--Main Promo Text-->
               <h1>Добро пожаловать на FutureNet – социальную сеть будущего!</h1>
               <h3>Приобщайтесь к современной социальной сети современности. Стильный дизайн, многофункциональность, простой интерфейс, всем этим, вы сможете насладиться, зарегистрировавшись за несколько секунд!</h3>
-              <a href="#learnmore" class="button-white"> Узнать больше </a> </div>
+              <a href="#learnmore" class="button-white" onClick="ga('send', 'pageview', '/virtual/learn_more_button_push'), ga('send', 'event', 'button', 'learn_more');"> Узнать больше </a> </div>
               <!--//Main Promo Text End-->
           </div>
           <!--Registration Form-->
@@ -129,7 +152,7 @@
                   </div>
                 </fieldset>
                 <div class="g-recaptcha" data-sitekey="6LdUDicUAAAAAPPY3nrZAOR4OvaPnVQzmvt-q8DL"></div>
-                <button class="registration-button">Зарегестрироваться</button>
+                <button class="registration-button" onClick="ga('send', 'pageview', '/virtual/reg_button_push'), ga('send', 'event', 'button', 'reg');" >Зарегестрироваться</button>
                 <div class="licence"> Нажимая кнопку регистрации, Вы принимаете наши условия и наши правила согласно информации, включая  политику cookie.
                   <div class="licennce-text">
                     <input type="checkbox" name="subscribe" value="newsletter">
@@ -184,7 +207,7 @@
 <div class="gallery">
   <div class="container-fluid">
     <div class="container">
-      <h2>Команда FutureNet постоянно работает над развитем и продвижением новых технологий, для Вас!</h2>
+      <h2>Команда FutureNet постоянно работает над развитием и продвижением новых технологий, для Вас!</h2>
     </div>
     <div class="gallery">
       <div class="owl-carousel owl-theme">
@@ -245,7 +268,7 @@
           <div class="cta-text-block">
             <div class="cta-banner">FutureNet – раскрывает мир </div>
             <h3>Только на FutureNet, вы имеете возможность неограниченно познавать мир и получать удовольствие от обмена своими познаниями с новыми друзьями!</h3>
-            <a href="#home" class="button-white"> зарегестрироваться </a>
+            <a href="#home" class="button-white" onClick="ga('send', 'pageview', '/virtual/registration_up_button_push'), ga('send', 'event', 'button', 'reg_up');"> зарегестрироваться </a>
           </div>
         </div>
         <div class="col-sm-6 " > <img class="right-image" src="img/cta-image.png" alt=""> </div>
